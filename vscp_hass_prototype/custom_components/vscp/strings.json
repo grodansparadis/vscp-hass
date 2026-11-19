@@ -1,0 +1,19 @@
+{
+  "title": "VSCP TCP/IP",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to VSCP daemon",
+        "data": {
+          "host": "Host",
+          "port": "TCP port",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect or authenticate"
+    }
+  }
+}

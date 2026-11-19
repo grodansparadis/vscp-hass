@@ -1,0 +1,20 @@
+{
+  "switches": [
+    {
+      "id": "relay_1", "name": "Relay 1", "device_name": "VSCP Relay",
+      "guid": "00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:01",
+      "command_on": {"class": 30, "type": 5, "data": [0, 0, 1]},
+      "command_off": {"class": 30, "type": 6, "data": [0, 0, 1]},
+      "state_on": {"class": 30, "type": 5, "data_prefix": [0, 0, 1]},
+      "state_off": {"class": 30, "type": 6, "data_prefix": [0, 0, 1]}
+    }
+  ],
+  "sensors": [
+    {
+      "id": "temperature_1", "name": "Temperature", "device_name": "VSCP Temperature",
+      "guid": "00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:02",
+      "event": {"class": 10, "type": 6},
+      "encoding": "int16be", "offset": 0, "scale": 0.1, "unit": "°C"
+    }
+  ]
+}
